@@ -20,4 +20,8 @@ from random import randint
 # array=[randint(1,100) for i in range(5)]
 # print(f"{array} -> {array_max(array)}")
 
+# # def array_max(array):
+
+# x = int(input('введите  число: '))
+# a=list(range(-x,x+1))
 

@@ -6,3 +6,15 @@
 # - 7 -> да
 # - 1 -> нет
 
+def day_week(num):
+    if num < 6:
+        return print(f" - {num} -> нет")
+    elif 5 < num < 8:
+        return print(f" - {num} -> да")
+    else:
+        num = int(input("вы ввели не номер дня недели, попробуйте еще раз - "))
+        day_week(num)
+
+
+num = int(input('введите номер дня недели: '))
+day_week(num)
