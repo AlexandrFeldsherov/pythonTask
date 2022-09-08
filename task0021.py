@@ -4,7 +4,7 @@ def inputNumbers(num):
     num_new=[]
     i = 0
     while i<num:
-        x=(int(input(f"Введите значение num [{i}] : ")))
+        x=(int(input(f"Введите значение  [{i}] : ")))
         num_new.insert(i, x)
         i+=1
     return num_new
@@ -18,7 +18,6 @@ def checkPredicate(x):
 
 
 statement = inputNumbers(3)
-print(statement)
 
 if checkPredicate(statement) == True:
     print(f"Утверждение истинно")
