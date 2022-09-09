@@ -1,10 +1,6 @@
 # 3. Напишите программу, которая по заданному номеру четверти, 
 # показывает диапазон возможных координат точек в этой четверти (x и y).
 
-from distutils.command.clean import clean
-from turtle import clear
-
-
 def check_input ():
     num=int(input('Введите номер четверти координат: '))
     while num<1 or num>4:
